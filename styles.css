@@ -1,27 +1,43 @@
 /*  your css code here. If applicable */
 #body-section{
 	background-color: rgb(204, 204, 204);
+	text-decoration: none;
 }
 #container2{
 	border: 1px solid;
-	height: 420px;
-	width: 340px;
+	height: 550px;
+	width: 450px;
 	border-radius: 10px;
-	padding-top: 10px;
+	padding-top: 5px;
 	background-color: white;
 }
+
 h1,h2{
 	text-align: center
+}
+#container1{
+	text-decoration: none;
 }
 #songs{
 	border: 1px solid;
 	border-radius: 10px;
-	list-style-type: none;
-	text-decoration-line: none;
 	background-color: white;
+	list-style-type: none;
+	text-decoration: none;
+	padding-top: 10px;
+	padding-bottom: 10px;
 }
-.player_one,.player_two{
+.player_one{
 	background-color: rgb(255, 255, 255);
+	width: 400px;
+	padding: 10px ;
+	border-radius: 10px;
+	margin: 10px;
+	
+}
+.player_two{
+	background-color: rgb(255, 255, 255);
+	width: 400px;
 	padding: 10px ;
 	border-radius: 10px;
 	margin: 10px;
